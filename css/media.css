@@ -77,6 +77,13 @@
   .card-big {
     display: none;
   }
+  .card-img {
+    width: 376.26px;
+    height: 199px;
+  }
+  .card-view {
+    max-width: 376.26px;
+  }
 
   .about {
     margin-top: 40px;
