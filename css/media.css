@@ -1,0 +1,133 @@
+@media (max-width: 425px) {
+  .container {
+    padding: 0 21px;
+  }
+  .nav-list {
+    display: none;
+  }
+  .header-authorization {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+  .header__nav {
+    justify-content: flex-end;
+    gap: 61px;
+    flex-direction: row-reverse;
+  }
+  .welcome {
+    padding-bottom: 49px;
+  }
+  .welcome__wrapper {
+    flex-direction: column-reverse;
+  }
+  .welcome-img img {
+    padding: 14px 27px;
+    width: 280.37px;
+    height: 216px;
+  }
+  .welcome-start {
+    margin-top: 0;
+    flex-basis: 0px;
+  }
+  .welcome-title {
+    margin-bottom: 9px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+  }
+  .welcome-text {
+    margin-bottom: 23px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .welcome-watch {
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+  }
+  .welcome-link {
+    margin-left: 15px;
+  }
+  .tools-title {
+    margin-top: 0px;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+  }
+  .tools-row {
+    margin-top: 43px;
+    flex-direction: column;
+    gap: 47px;
+  }
+  .tools-block {
+    margin-top: 0px;
+    text-align: center;
+  }
+  .tools-subtitle {
+    margin-top: 9px;
+    margin-bottom: 0px;
+  }
+
+  .card-big {
+    display: none;
+  }
+
+  .about {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .about-card {
+    display: block;
+  }
+  .contact-block-img {
+    margin-left: 230px;
+  }
+  .contact {
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .contact-info {
+    display: block;
+  }
+  .contact-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .form-view {
+    display: block;
+  }
+  .contact-relations {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .form-view input {
+    margin-top: 20px;
+    width: 332.89px;
+    height: 45px;
+  }
+  .form-view textarea {
+    width: 332.89px;
+    height: 159px;
+  }
+  .contact-btn {
+    padding: 14px 64px;
+  }
+  .footer-info {
+    display: block;
+    text-align: center;
+  }
+  .footer-quick,
+  .footer-legal {
+    margin-top: 27px;
+  }
+}
