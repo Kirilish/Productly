@@ -1,22 +1,91 @@
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 24px;
+  }
+  .nav {
+    display: none;
+  }
+  .welcome-start {
+    margin-top: 46px;
+  }
+  .welcome-img img {
+    margin-top: 70px;
+    padding: 14px 27px;
+    width: 250.37px;
+    height: 230px;
+  }
+  .welcome-btn {
+    min-width: 174px;
+    padding: 15spx 40px;
+  }
+  .welcome-link {
+    min-width: 174px;
+  }
+  .tools-row {
+    flex-wrap: wrap;
+  }
+  .tools-block {
+    max-width: 275.81px;
+    text-align: center;
+  }
+  .marketing-title {
+    text-align: center;
+  }
+  .marketing-text {
+    text-align: center;
+  }
+  .marketing-nav {
+    justify-content: center;
+  }
+  .marketing-card {
+    max-width: 323px;
+    height: 377px;
+  }
+  .marketing-card img {
+    width: 323px;
+  }
+  .about {
+    margin-top: 40px;
+  }
+  .about-block {
+    text-align: center;
+  }
+  .about-card {
+    margin-left: 150px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact {
+    text-align: center;
+  }
+  .contact-info {
+    display: block;
+  }
+  .contact-relations {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 26px;
+    justify-content: center;
+  }
+  .contact-ask{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
 @media (max-width: 425px) {
   .container {
     padding: 0 21px;
   }
-  .nav-list {
-    display: none;
+  .header__nav {
+    justify-content: center;
   }
-  .header-authorization {
+  .header-authorization{
     display: none;
   }
 
-  .burger-menu {
-    display: block;
-  }
-  .header__nav {
-    justify-content: flex-end;
-    gap: 61px;
-    flex-direction: row-reverse;
-  }
   .welcome {
     padding-bottom: 49px;
   }
@@ -90,7 +159,7 @@
     text-align: center;
   }
   .about-card {
-    display: block;
+    margin-left: 0px;
   }
   .contact-block-img {
     margin-left: 230px;

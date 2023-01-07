@@ -96,7 +96,7 @@ li {
   border: 1px solid #ff7549;
 }
 
-.burger-menu {
+#burger{
   display: none;
 }
 
@@ -236,8 +236,12 @@ li {
   border: none;
   cursor: pointer;
   color: #ffffff;
+  background: #ff9900;
+  z-index: 10;  
+}
+
+.tools-btn:hover {
   background: #ff7549;
-  z-index: 10;
 }
 
 /* marketing */
@@ -276,6 +280,7 @@ li {
   background: #ffffff;
   border: 1px solid #d7d7d7;
   border-radius: 90px;
+  cursor: pointer;
   transition: 0.1s ease-in-out;
 }
 

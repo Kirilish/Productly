@@ -19,6 +19,7 @@ function changeArt() {
     }
   }
 }
+
 art.addEventListener("click", changeArt)
 
 function changeCulture() {
