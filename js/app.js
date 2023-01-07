@@ -6,8 +6,6 @@ const art = document.getElementById("art-check");
 const culture = document.getElementById("culture-check");
 const design = document.getElementById("design-check");
 
-const burger = document.getElementById("burger")
-const burgerOpen = document.querySelector(".open");
 
 function changeArt() {
   let changeColorBlock = document.querySelectorAll('.art');

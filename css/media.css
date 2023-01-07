@@ -6,6 +6,9 @@
   .nav {
     display: none;
   }
+  #burger {
+    display: block;
+  }
   .welcome-start {
     margin-top: 46px;
   }
@@ -68,7 +71,7 @@
     line-height: 26px;
     justify-content: center;
   }
-  .contact-ask{
+  .contact-ask {
     margin-top: 40px;
     display: flex;
     justify-content: center;
@@ -79,10 +82,8 @@
   .container {
     padding: 0 21px;
   }
-  .header__nav {
-    justify-content: center;
-  }
-  .header-authorization{
+
+  .header-authorization {
     display: none;
   }
 
